@@ -6,10 +6,8 @@ interface PostPageDetailProps {
 }
 
 export default async function PostPageDetail({
-  children,
   params,
 }: {
-  children: React.ReactNode;
   params: Promise<{ id: string }>;
 }) {
   const { id } = await params;

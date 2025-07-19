@@ -1,5 +1,3 @@
-import PostPage from "@/app/posts/page";
-import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
@@ -10,8 +8,8 @@ export default function Home() {
       </h1>
 
       <p className="text-lg text-gray-700 max-w-xl mb-8 mx-10">
-        Bu projede <strong>JSONPlaceholder</strong>'dan post verileri çekilip
-        dinamik route yapısı ile <code>/posts</code> ve <code>/posts/[id]</code>{" "}
+        Bu projede <strong>JSONPlaceholder</strong>&apos;dan post verileri çekilip
+        dinamik route yapısı ile <code>/posts</code> ve <code>/posts/[id]</code>
         sayfaları oluşturulmuştur. Aşağıdaki bağlantıya tıklayarak tüm postlara
         ulaşabilirsiniz.
       </p>
